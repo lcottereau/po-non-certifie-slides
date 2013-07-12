@@ -10,15 +10,20 @@ avec des utilisateurs métiers pas ou peu formés sur la gestion de projet, qui 
 
 ## Points à aborder ##
 
+Introduction sur mon expérience (nombreux petits projets très métiers)
+
+1. Le PO doit être côté utilisateurs, avec capacités de décision. Il vaut mieux un lead projet côté équipe technique.
 1. la gestion des priorités entre tâches
-1. la connaissance métier (et interlocuteurs utilisateurs). Eviter les contacts directs.
-1. la confiance entre interlocuteurs
+1. la connaissance métier (et interlocuteurs utilisateurs). Eviter les contacts directs hors PO.
+1. la confiance entre équipes
 1. la colocalisation avec l'équipe de dev
-1. Ce qui est moins critique (ce qui peut être pris en charge par le coach ou l'équipe de dev)
-    * la mise à jour du backlog
+1. Ce qui est moins critique (peut être pris en charge par le coach ou l'équipe de dev)
+    * la maintenance du backlog
     * l'estimation précise du ROI
     * la connaissance de la sémantique scrum
     * la connaissance technique
+
+Conclusion sur le fait que cela suffit pour instaurer le cercle vertueux confiance/implication/qualité
 
 ## Contexte ##
 
