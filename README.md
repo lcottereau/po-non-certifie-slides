@@ -27,7 +27,7 @@ Introduction sur mon expérience (nombreux petits projets très métiers)
     * l'estimation précise du ROI
 
 Conclusion sur le fait que cela suffit pour instaurer le cercle vertueux confiance/implication/qualité. 
-Souvent un projet réussi de la sorte encourage le PO à se renseigner plus avant sur la fonction.
+Souvent un projet réussi de la sorte encourage le PO à se renseigner plus avant sur la fonction (utilisation plus pertinente de la priorisation avec la valeur métier et les arbitrages coût/valeur)
 
 ## Contexte ##
 
