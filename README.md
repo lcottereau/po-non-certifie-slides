@@ -23,7 +23,7 @@ Introduction sur mon expérience (nombreux petits projets très métiers)
 1. Le boulot irremplaçable du PO : la gestion des priorités entre tâches. Montrer comment l'itératif et le MVP peuvent grandement l'aider.
 1. Un facteur de succès énorme : la confiance entre équipes (colocalisation avec dev)
 1. Ce qui est moins critique
-    * la maintenance du backlog (peut être aidé par le coach ou l'équipe de dev)
+    * la maintenance du backlog (peut être aidé par le coach ou l'équipe de dev). Le plus facile est de tout noter sans faire trop de tri (cf priorisation par contre)
     * l'estimation précise du ROI
 
 Conclusion sur le fait que cela suffit pour instaurer le cercle vertueux confiance/implication/qualité. 
