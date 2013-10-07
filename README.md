@@ -20,7 +20,7 @@ Introduction sur mon expérience (nombreux petits projets très métiers)
     * certaines choses pas critiques
         * la connaissance de la sémantique scrum
         * la connaissance technique
-1. Le boulot irremplaçable du PO : la gestion des priorités entre tâches. Montrer comment l'itératif et le MVP peuvent grandement l'aider.
+1. Le boulot irremplaçable du PO : la gestion des priorités entre tâches. Montrer comment l'itératif et le MVP peuvent grandement l'aider. Montrer le graphe avec risques et valeur. Parler de "si l'on s'arrêtait demain..."
 1. Un facteur de succès énorme : la confiance entre équipes (colocalisation avec dev)
 1. Ce qui est moins critique
     * la maintenance du backlog (peut être aidé par le coach ou l'équipe de dev). Le plus facile est de tout noter sans faire trop de tri (cf priorisation par contre)
