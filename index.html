@@ -49,13 +49,21 @@
 		    li.github {
 		        list-style-image: url('img/icon-github.png');
 		    }
-		    .encart section.present {
-		        background-color: rgba(0, 0, 0, 0.75);
-		        border-radius: 10px;
-		        padding: 0.7em;
-		    }
-		    .encart h3 {
+		    .reveal h2 {
 		        margin: 0;
+		    }
+		    .banniere {
+		    	left: -88% !important; 
+		    	width: 138% !important;
+		    	top: 15% !important;
+		        background-color: rgba(0, 0, 0, 0.75);
+		        padding: 0.5em 5em !important;
+		    }
+		    .haut {
+		    	top: -56% !important; 
+		    }
+		    .bas {
+		    	top: 40% !important;
 		    }
 		</style>
 	</head>
@@ -76,8 +84,8 @@
 					</aside>
 				</section>
 
-				<section data-background="img/ratp.jpg" data-state="encart">
-					<h3>Expérimentations agiles à la <acronym title="Régie Autonome des Transports Parisiens">RATP</acronym></h3>
+				<section class="banniere haut" data-background="img/ratp.jpg">
+					<h2>Expérimentations agiles à la <acronym title="Régie Autonome des Transports Parisiens">RATP</acronym></h2>
 					<aside class="notes">
 						<ul>
 							<li>difficultés de migration Microsoft</li>
@@ -92,8 +100,8 @@
 					</aside>
 				</section>
 
-				<section data-background="img/deviation.jpg" data-state="encart">
-					<h3>Premiers contacts</h3>
+				<section class="banniere bas" data-background="img/deviation.jpg">
+					<h2>Premiers contacts</h2>
 					<aside class="notes">
 						<ul>
 							<li>suite à la demande du métier</li>
@@ -103,8 +111,8 @@
 					</aside>
 				</section>
 
-				<section data-background="img/constraints.jpg" data-state="encart">
-					<h3>Des contraintes projet</h3>
+				<section class="banniere" data-background="img/constraints.jpg">
+					<h2>Des contraintes projet</h2>
 					<aside class="notes">
 						<ul>
 							<li>critères projet<ul>
@@ -115,8 +123,8 @@
 					</aside>
 				</section>
 
-				<section data-background="img/selection.jpg" data-state="encart">
-					<h3>Choix du Product Owner</h3>
+				<section class="banniere haut" data-background="img/selection.jpg">
+					<h2>Adéquation du (futur) Product Owner</h2>
 					<aside class="notes">
 						<ul>
 							<li>connaissances métier au minimum</li>
@@ -129,8 +137,8 @@
 					</aside>
 				</section>
 
-				<section data-background="img/notes.jpg" data-state="encart">
-					<h3>Premier jet de backlog</h3>
+				<section class="banniere haut" data-background="img/notes.jpg">
+					<h2>Premier jet de backlog</h2>
 					<aside class="notes">
 						<ul>
 							<li>échange informel avec le PO</li>
@@ -140,8 +148,8 @@
 					</aside>
 				</section>
 
-				<section data-background="img/prototype.jpg" data-state="encart">
-					<h3>Prototypage / Spec itérative</h3>
+				<section class="banniere bas" data-background="img/prototype.jpg">
+					<h2>Prototypage / Spec itérative</h2>
 					<aside class="notes">
 						<ul>
 							<li>Première version d'une fonctionnalité pour avancer sur la spécificiation détaillée</li>
@@ -154,7 +162,7 @@
 				</section>
 
 				<section data-background="#8c4738">
-					<h3>Pas de gestion complexe des priorités</h3>
+					<h2>Pas de gestion complexe des priorités</h2>
 					<p><img alt="tâches urgentes et importantes en premier, puis non urgentes importantes, puis urgentes non importantes, puis non urgentes non importantes (ou pas)" src="img/priorites.png"/></p>
 					<aside class="notes">
 						<ul>
@@ -164,8 +172,8 @@
 					</aside>
 				</section>
 
-				<section data-state="encart" data-background="img/question.jpg">
-					<h3>Quelle fonctionnalité choisit-on de faire si on devait arrêter le projet demain ?</h3>
+				<section data-background="img/question.jpg">
+					<h2>Quelle fonctionnalité choisit-on de faire si on devait arrêter le projet demain ?</h2>
 					<aside class="notes">
 						<ul>
 							<li>Pour les utilisateurs que j'ai rencontré, c'était bien plus difficile que décrire la fonctionnalité</li>
@@ -179,8 +187,8 @@
 					</aside>
 				</section>
 
-				<section data-background="img/cleaning.jpg" data-state="encart">
-					<h3>Pas de nettoyage du backlog</h3>
+				<section class="banniere haut" data-background="img/cleaning.jpg">
+					<h2>Pas de nettoyage du backlog</h2>
 					<aside class="notes">
 						<ul>
 							<li>Difficile de convaincre le PO</li>
@@ -191,8 +199,8 @@
 					</aside>
 				</section>
 
-				<section data-background="img/colocalisation.jpg" data-state="encart">
-					<h3>Co-localisation</h3>
+				<section class="banniere bas" data-background="img/colocalisation.jpg">
+					<h2>Co-localisation</h2>
 					<aside class="notes">
 						<ul>
 							<li>accélère la découverte des <em>loups</em> (discussions informelles, questions plus faciles, ...) : coeur de la difficulté des projets sur les applications de gestion</li>
@@ -203,12 +211,12 @@
 				</section>
 
 				<section>
-					<h3>Cercle vertueux</h3>
+					<h2>Cercle vertueux</h2>
 					<p>Premières itérations livrées, première version en production</p>
 					<p>Le PO va vouloir en savoir plus sur la méthode, les techniques de spécifications avec les utilisateurs, les techniques de priorisation avec valeur métier, les arbitrages coût/valeur,...</p>
 				</section>
 
-				<section data-background="img/thank_you.jpg" data-state="encart">
+				<section class="banniere haut" data-background="img/thank_you.jpg">
 					<p>Merci à 
 						<a hreflang="en" href="https://secure.flickr.com/photos/unavoidablegrain/4070656943/">Greg Borenstein</a>,
 						<a hreflang="en" href="https://secure.flickr.com/photos/keoni101/5013906050/">Keoni Cabral</a>,
@@ -225,7 +233,7 @@
 				</section>
 
 				<section data-background="img/fond_dingle.jpg">
-					<h3>Merci</h3>
+					<h2>Merci</h2>
 					<ul>
 						<li class="email"><a href="mailto:laurent@cottereau.name"><code>laurent@cottereau.name</code></a></li>
 						<li class="twitter"><a href="https://twitter.com/lcottereau"><code>@lcottereau</code></a></li>
