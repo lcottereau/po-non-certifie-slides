@@ -124,11 +124,8 @@
 								<li>offre de service d'exploitation <em>standard</em></li>
 								<li>pas (puis peu) d'interfaces</li>
 							</ul></li>
-							<li>possibilités de pilotes (on y reviendra)</li>
-							<li>limiter le risque de dérapage (<abbr title="expérimentation">expé</abbr> et <abbr title="nombreux">nb</abbr> clients) <ul>
-								<li>pilotage par les délais</li>
-								<li>compromis fonctionnel/technique</li>
-							</ul></li>
+							<li>pilotage par les délais, specs volatiles</li>
+							<li>si contraintes fonctionneles fixées, agile pas idéal</li>
 						</ul>
 					</aside>
 				</section>
@@ -140,7 +137,7 @@
 							<li>connaissances métier au minimum</li>
 							<li>idéalement utilisateur lui-même</li>
 							<li>bon réseau (centralisation et arbitrage des demandes)</li>
-							<li>rarement connaissance projet, encore moins scrum</li>
+							<li>habitué <em>exploitation</em>, rarement connaissance projet</li>
 							<li>accepte lead projet côté MOE</li>
 							<li>légitimité/capacité de décision : éviter les goulots</li>
 							<li>disponibilité importante</li>
@@ -154,9 +151,10 @@
 						<ul>
 							<li>échange informel entre équipe et PO</li>
 							<li>pas toutes réponses mais obliger PO à se questionner</li>
-							<li>idéal si idée de <a hreflang="en" href="https://en.wikipedia.org/wiki/Extreme_Programming_Practices#System_metaphor"><em>métaphore</em></a></li>
+							<li>idéal si idée de <a hreflang="en" href="https://en.wikipedia.org/wiki/Extreme_Programming_Practices#System_metaphor"><em>métaphore</em></a> (<abbr title="exemple">ex.</abbr> mémoire PC)</li>
 							<li>estimation de charge sur cette projection</li>
 							<li>ajout d'un alea de 30% (risques et évolutions)</li>
+							<li>aboutit à date de livraison finale</li>
 						</ul>
 					</aside>
 				</section>
@@ -170,7 +168,7 @@
 							<li>1<sup>ère</sup> étape : <acronym title="mise en production">MEP</acronym> du <acronym lang="en" title="Minimum Viable Product">MVP</acronym> (convaincre le PO)</li>
 							<li>retour utilisateur le plus rapide possible</li>
 							<li>éviter de spécifier dans la tour d'ivoire</li>
-							<li>par la suite, itérations et MEP régulières</li>
+							<li>par la suite, MEP (ou pilotes) réguliers</li>
 						</ul>
 					</aside>
 				</section>
@@ -179,12 +177,7 @@
 					<h2>Spécification itérative</h2>
 					<aside class="notes">
 						<ul>
-							<li>PO autorisé à changer le backlog (entre sprints)</li>
-							<li>MOE engagé sur <ul>
-								<li>coût/date livraison</li>
-								<li>moyens</li>
-								<li>qualité produite</li>
-							</ul></li>
+							<li>PO utilise retours pour <acronym title="mise à jour">maj</acronym> backlog</li>
 							<li>prototypage continu permet de mûrir les fonctionnalités</li>
 							<li>souvent on ne garde que le prototype</li>
 						</ul>
@@ -198,7 +191,7 @@
 							<li>(pour ceux qui ont encore faim)</a>
 							<li>ici objectif : réduire la fonctionnalité</li>
 							<li>différents leviers possible<ul>
-								<li>pas d'ergonomie : voir à l'utilisation</li>
+								<li>pas d'ergonomie plutôt que wizard complexe</li>
 								<li>cas complexes <em>à la main</em> (imports ou traitements)</li>
 								<li>interface d'administration automatisée <em>brute</em></li>
 								<li>impression HTML seulement, PDF si besoin</li>
@@ -212,12 +205,10 @@
 					<h2>Ordonnancement des tâches</h2>
 					<aside class="notes">
 						<ul>
-							<li>engagement initial agile</li>
-							<li>souvent <em lang="en">live</em> (réunion d'itération)</li>
-							<li>pas de modification pendant l'itération</li>
-							<li>pas de gestion complexe des priorités (ou <a hreflang="en" href="http://members.scrumalliance.org/articles/117-priority-markets">marchés de priorité</a> ou <acronym lang="en" title="Return on Investment">ROI</acronym>/Risque)</li>
-							<li><a hreflang="en" href="http://www.scrumalliance.org/community/articles/2011/august/it%E2%80%99s-ordered-%E2%80%94-not-prioritized!">pas de groupes de priorité</a> : ordre complet</li>
+							<li>Non Certifié !</li>
 							<li>souvent plus difficile que décrire la fonctionnalité</li>
+							<li>pas de gestion complexe des priorités (ou <a hreflang="en" href="http://members.scrumalliance.org/articles/117-priority-markets">marchés de priorité</a> ou <acronym lang="en" title="Return on Investment">ROI</acronym>/Risque)</li>
+							<li>mais <a hreflang="en" href="http://www.scrumalliance.org/community/articles/2011/august/it%E2%80%99s-ordered-%E2%80%94-not-prioritized!">pas de groupes de priorité</a> : ordre complet</li>
 					</aside>
 				</section>
 
@@ -237,6 +228,8 @@
 					<h2>Pas de nettoyage du backlog</h2>
 					<aside class="notes">
 						<ul>
+							<li>très difficile d'abandonner une tâche</li>
+							<li>raison principale des grosses specs en cascade</li>
 							<li>on <em>repousse</em> pour <em>quand on aura le temps</em></li>
 							<li>pas <em>classique</em> mais évite blocage du PO</li>
 							<li>la tâche meurt de sa belle mort à la fin du projet</li>
@@ -248,14 +241,12 @@
 					<h2>Co-localisation</h2>
 					<aside class="notes">
 						<ul>
-							<li>facteur de succès important</li>
-							<li>permet spécification en cours de <abbr title="développement">dev</abbr></li>
+							<li>facteur de succès important pour spécification</li>
+							<li>(outre confiance réciproque et concret pour les dev)</li>
+							<li>permet spec détaillée en cours de <abbr title="développement">dev</abbr></li>
 							<li>discussions informelles débusquent les <em>loups</em></li>
 							<li>particulièrement utile sur applications de gestion</li>
-							<li>pratique métaphore peut aider</li>
-							<li>améliore confiance réciproque et feedback <em>gratuit</em></li>
-							<li>plus de concret aux dev, valorisation</li>
-							<li>PO peut reprendre tâches de gestion quand il est prêt</li>
+							<li>aide à affiner la métaphore</li>
 						</ul>
 					</aside>
 				</section>
@@ -264,12 +255,11 @@
 					<h2>Retarder la spécification</h2>
 					<aside class="notes">
 						<ul>
-							<li>mon expérience : l'agilité permet de retarder</li>
+							<li>conclusion : agile utile car retarde la spécification</li>
 							<li>pour peut-être ne pas faire (gage de <a href="https://github.com/lcottereau/maintainability-slides">maintenabilité</a>)</li>
-							<li>et sinon faire bien (le plus de <em lang="en">feedback</em> possible)</li>
-							<li><abbr title="spécification">spécif.</abbr> agile aide surtout pour périmètre</li>
-							<li>évite rédaction (<em>téléphone arabe</em>) et facilite transmission</li>
-							<li>TODO Le PO va vouloir en savoir plus sur la méthode, les techniques de spécifications avec les utilisateurs, les techniques de priorisation avec valeur métier, les arbitrages coût/valeur,...</li>
+							<li>et sinon faire bien (le plus de <em lang="en">feedback</em>/maturité possible)</li>
+							<li>rapproche métier et codeur (<em>téléphone arabe</em>)</li>
+							<li><strong>spécification difficile. agilité la facilite</strong></li>
 						</ul>
 					</aside>
 				</section>
@@ -302,6 +292,7 @@
 						<li class="linkedin"><a href="http://fr.linkedin.com/in/lcottereau/fr"><code>lcottereau</code></a></li>
 						<li class="github"><a hreflang="en" href="https://github.com/lcottereau"><code>lcottereau</code></a></li>
 					</ul>
+					<aside class="notes">Des questions ?</aside>
 				</section>
 			</div>
 
