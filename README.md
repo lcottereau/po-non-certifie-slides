@@ -9,7 +9,7 @@ Product Owner non certifié
 ## Idée ##
 
 Je présente mon expérience à la RATP de conduite de projets agile avec des utilisateurs ne connaissant pas l'agilité. 
-J'essaie de montrer quelles sont les pratiques de spécification principales qui peuvent être utilisées simplement pour 
+J'essaie de montrer quelles sont les principales pratiques de spécification qui peuvent être utilisées de manière simple pour 
 aboutir au produit final adapté au besoin.
 
 ## Installation ##
