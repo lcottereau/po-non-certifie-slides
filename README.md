@@ -4,7 +4,7 @@ Product Owner non certifié
 ## Contexte 
 
 [Cette présentation](http://lcottereau.github.io/po-non-certifie-slides/) (n'oubliez pas la touche `s` pour les notes de présentation) 
-a été montrée aux [Journée IUT Agiles](http://www.iutagile.com/) à Lyon le 20 novembre 2013. Le thème était 
+a été montrée aux [Journée IUT Agiles](http://www.iutagile.com/?p=426) à Lyon le 20 novembre 2013. Le thème était 
 _Spécifier Agile_. Elle dure environ 30 minutes. 
 
 
